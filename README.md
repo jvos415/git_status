@@ -10,9 +10,12 @@ If you would like to try it yourself, follow the steps below:
   ```
   python --version
   ```
-  If a version number comes up, you have python, if not, you will need to download it.
+  If a version number comes up, you have python, if not, you will need to download it using the link provided above.
 
-  3. Navigate inside the project folder using the command line
+  3. Navigate inside the project folder using the command line:
+  ```
+  cd git_status
+  ```
   4. Run the following line of code:
   ```
   pipenv install
@@ -21,6 +24,19 @@ If you would like to try it yourself, follow the steps below:
   ```
   pipenv shell
   ```
-  6. Now you are ready to roll! Open up the git_status.py in your favorite code editor and try it out by following further instructions in the file.
+  6. Now you are ready to roll! Open up the git_status.py file and follow the instructions for entering a file path at the end of the file.
 
-You will see the Active Branch, if there are local branch changes, if there has been a commit in last week and if Rufus was the author of the last commit all printed to the terminal! Note: If this program is fun on a file path that is not a git repository, you will receive an error message.
+  7. To test your file using the program you can run:
+  ```
+  python git_status/git_status.py
+  ```
+  Or you can navigate into git_status folder Using
+  ```
+  Cd git_status
+  ```
+  And then run
+  ```
+  Python git_status.py
+  ```
+
+You will see the Active Branch, if there are local branch changes, if there has been a commit in last week and if Rufus was the author of the last commit all printed to the terminal! Note: If this program is run on a file path that is not a git repository, you will receive an error message.
