@@ -15,8 +15,12 @@ If you would like to try it yourself, follow the steps below:
   3. Navigate inside the project folder using the command line
   4. Run the following line of code:
   ```
-  pip install gitpython pytz
+  pipenv install
   ```
-  5. Now you are ready to roll! Open up the git_status.py in your favorite code editor and try it out by following further instructions in the file.
+  5. Enter your python shell with:
+  ```
+  pipenv shell
+  ```
+  6. Now you are ready to roll! Open up the git_status.py in your favorite code editor and try it out by following further instructions in the file.
 
 You will see the Active Branch, if there are local branch changes, if there has been a commit in last week and if Rufus was the author of the last commit all printed to the terminal! Note: If this program is fun on a file path that is not a git repository, you will receive an error message.
