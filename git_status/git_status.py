@@ -20,5 +20,6 @@ def git_status(git_dir):
   except:
     print("An error occurred. Path may not be a git repository.")
 
-# Sample local path test below, simply uncomment the line below and fill in a local path to test the program
+# Sample local path test below to run the program
+# Simply uncomment the line below and fill in a local path to test the program
 # git_status("sample/local/path/to/git/repo")
